@@ -316,3 +316,8 @@ Each Message should be signed with the private key of the device, where the publ
 | **signature** | `object` | Signature of the message. This object contains at least the require fields `messageHash`, `r`, `s`, `v` |
 
 The signature is optional, but signing a read message enables the user to receive more detailed information, if the user is the current controller. For example if the user is controlling a drone, only the controlling user, will receive the gps-location or other relevant data. But anyone would receive the renting-state.
+
+## Authors
+
+- [Simon Jentzsch](mailto:simon.jentzsch@slock.it), CTO Slock.it
+- [Christoph Jentzsch](mailto:christoph.jentzsch@slock.it), CEO Slock.it
